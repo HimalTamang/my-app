@@ -1,0 +1,51 @@
+.search-btn input {
+    width: 60%; 
+    border: 2px solid lightblue;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+  .search-btn button{
+    padding: 10px;
+    border-radius: 12px;
+    width: 15%;
+    margin-left: 3%;
+  }
+  hr{
+    border: 1px solid lightblue;
+  }
+  
+  @media only screen and (max-width: 768px){
+    .search-btn button{
+      width: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 550px){
+    .search-btn button{
+      width: 30%;
+    }
+  }
+  @media only screen and (max-width: 390px){
+    .search-btn input{
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+    .search-btn button{
+      margin-left: 0px;
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

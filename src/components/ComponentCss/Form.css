@@ -1,0 +1,14 @@
+.user-form{
+    width: 100%;
+    box-sizing: border-box;
+}
+.user-form h3{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.gender-classname input{
+    margin: 10px;
+}

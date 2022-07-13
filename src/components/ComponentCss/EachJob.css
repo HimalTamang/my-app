@@ -1,0 +1,39 @@
+.container-jobs-skills{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.card .jobs-type{
+    padding: 10px;
+    /* border: 1px solid red; */
+    text-transform: capitalize;
+    font-weight: 500;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .jobs-type span{
+    font-size: 13px;
+}
+.card .jobs-skills{
+    /* border: 1px solid blue; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .jobs-skills span{
+    font-size: 10px;
+    margin: 0px 10px;
+}
+@media only screen and (max-width: 700px){
+    .container-jobs-skills{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 350px){
+ .container-jobs-skills{
+    width: 97%;
+ }
+}

@@ -1,0 +1,20 @@
+.company-description h4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.company-description p{
+    text-align: center;
+} 
+
+.useful-links h4{
+    /* border: 1px solid red; */
+    display: flex; 
+    justify-content: center;
+}
+
+.useful-links p a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}

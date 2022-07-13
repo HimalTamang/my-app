@@ -1,0 +1,47 @@
+/* JobList and AllJobs jsx file shared same css  */
+.all-job hr, .user-form hr{
+    margin: 40px 0px;
+}
+/* this css property is for all job section in the  joblist component. */
+.card-css-app-for-all-jobs{
+        flex-direction: row;
+}
+.card-css-app-for-all-jobs img{
+    height: 100px;
+    width: 100px;
+}
+.card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+}    
+.card a{
+    margin: 10px 0px;
+    width: 100%
+}
+/* css property for the heading of hot job and top job lists */
+.hot-job-lists, .top-job, .premiere-job,.all-job-lists{
+    border-bottom: 4px solid blue;
+    display: inline-block;
+}
+
+.btn{
+    cursor: pointer;
+}
+/* Skills and type of jobs */
+.card .jobs-type .remote-job{ 
+    display: none;
+}
+
+/* for hiding image in minimum of 490px devices */
+
+@media only screen and (max-width: 490px){
+    .card-css-app-for-all-jobs img{
+        display: none;
+    }
+}

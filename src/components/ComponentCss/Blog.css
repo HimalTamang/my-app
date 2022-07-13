@@ -1,0 +1,10 @@
+.blog-section{
+    height: 100vh;
+    border: 1px solid red;
+}
+.blog-section h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
